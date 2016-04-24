@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">YandexMobilization</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_splash">Проект «Мобилизация»</string>
+    <string name="title_activity_splash_project">Школа мобильной разработки</string>
+
+    <string name="label_albums">Альбомов: %1$s, песен: %2$s</string>
+    <string name="label_lastUpdate">Последнее обновление: %1s</string>
+    <string name="title_button_save">Сохранить</string>
+    <string name="title_button_artist">Искать по имени</string>
+    <string name="title_button_genres">Искать по жанру</string>
+    <string name="hint_username">Введите ваше имя…</string>
+
+    <string name="title_dialog_error">Ошибка</string>
+    <string name="title_dialog_load_image">Загрузка</string>
+    <string name="title_dialog_load_image_please_wait">Пожалуйста, подождите</string>
+    <string name="string_ufo_error">Случилась неизвестная ошибка :(</string>
+    <string name="string_connection_error">Отсутствует подключение к интернету</string>
+
+    <string name="menu_item_artist">Исполнители</string>
+    <string name="menu_item_search">Поиск</string>
+    <string name="menu_item_favourite">Избранное</string>
+    <string name="menu_item_settings">Настройки</string>
+    <string name="menu_item_exit">Выход</string>
+
+    <string name="artist_bio">Биография</string>
+    <string name="label_empty_favourite">Список избранных исполнителей пуст. Пожалуйста, добавьте исполнителей, которые вам нравятся.</string>
+    <string name="error_empty_bitmap">Приложение не смогло получить изображение</string>
+
+    <string name="label_input_activity_item_photo_camera">Камера</string>
+    <string name="label_input_activity_item_photo_galery">Галерея</string>
+    <string name="label_input_activity_item_photo_choose">Выбрать изображение</string>
+    <string name="label_input_activity_item_photo_cancel">Отмена</string>
+    <string name="string_success">Успешно</string>
+    <string name="string_empty_search">По вашему запросу ничего не найдено.</string>
+</resources>

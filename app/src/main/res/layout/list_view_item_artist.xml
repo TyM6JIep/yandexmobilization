@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        card_view:cardCornerRadius="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/value_10dp"
+        android:background="@android:color/white">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/value_10dp">
+
+            <ImageView
+                android:layout_width="@dimen/artist_image_max"
+                android:layout_height="@dimen/artist_image_max"
+                android:id="@+id/artistImage"
+                android:src="@drawable/ic_user_not_found"
+                android:adjustViewBounds="true" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/value_10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/artistName"
+                    android:layout_gravity="center_vertical" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/layoutGeners"></LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/artistGener" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/artistAlbums" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="@dimen/button_width"
+                    android:layout_height="@dimen/button_height"
+                    android:id="@+id/artistWeb"
+                    android:background="@drawable/ic_link"
+                    android:layout_marginLeft="@dimen/value_10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="@dimen/value_5dp" />
+
+                <CheckBox
+                    android:layout_width="@dimen/button_width"
+                    android:layout_height="@dimen/button_height"
+                    android:button="@null"
+                    android:background="@drawable/background_favourite"
+                    android:id="@+id/artistFavourite"
+                    android:layout_marginLeft="@dimen/value_10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/value_5dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

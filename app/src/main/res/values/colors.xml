@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorButtonDefaultBackground">#607d8b</color>
+    <color name="colorButtonDefaultPressedBackground">#455a64</color>
+    <color name="colorBackgroundLoading">#a4a4a4</color>
+    <color name="colorBackgroundSplash">#101010</color>
+    <color name="colorButtonDefFinderBorder">#C3CBD4</color>
+    <color name="colorButtonDefPressedBackground">#78909c</color>
+    <color name="colorButtonDefBackground">#678eb5</color>
+    <color name="colorInputHintFinder">#cac8bf</color>
+</resources>
